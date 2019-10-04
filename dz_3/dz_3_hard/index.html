@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dz_3_hard</title>
+	<style>
+		body {
+			margin: 0;
+			background-color: #9A0909;
+		}
+		h1 {
+			text-align: center;
+		}
+		nav {
+			background-color: black;
+			padding: 20px 40px;
+			padding-bottom: 5px;
+			width: calc(951px - 80px);
+		}
+		nav > div {
+			display: inline-block;
+			max-width: 150px;
+		}
+		nav > div + div {
+			margin-left: 5em;
+		}
+		nav img {
+			width: 150px;
+		}
+		nav > div div {
+			color: white;
+			text-align: center;
+		}
+		nav a {
+			text-decoration: none;
+		}
+		main, nav, footer {
+			max-width: 951px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		aside, article {
+			display: inline-block;
+			box-sizing: border-box;
+			vertical-align: top;
+			height: 300px;
+		}
+		aside:nth-child(1) {
+			width: 21%;
+			background-color: #930303;
+		}
+		aside:nth-child(1) a {
+			color: #FC5000;
+		}
+		article + aside {
+			width: 16%;
+			background-color: #E6DEDE;
+		}
+		article {
+			width: calc(100% - 21% - 16.5%);
+			color: white;
+		}
+		section p {
+			font-size: 18px;
+		}
+		h3 {
+			background-color: #BEBEBE;
+			margin-top: 0;
+			text-align: center;
+		}
+		hr {
+			width: 80px;
+		}
+		h4 {
+			background-color: #FF5B00;
+			text-align: center;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>
+			<img src="images/title.gif" alt="title">
+		</h1>
+		<nav>
+			<div>
+				<a href="#"><img src="images/img00.jpg" alt="img01">
+					<div>Home</div></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/img01.jpg" alt="img02">
+					<div>About</div></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/img02.jpg" alt="img03">
+					<div>Services</div></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/img03.jpg" alt="img04">
+					<div>Contact</div></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<aside>
+			<p><a href="#">Lorem ipsum</a></p>
+			<p><a href="#">Lorem ipsum dolor.</a></p>
+			<p><a href="#">Lorem ipsum</a></p>
+			<p><a href="#">Lorem ipsum dolor.</a></p>
+			<p><a href="#">Lorem ipsum dolor.</a></p>
+		</aside><!--
+		--><article>
+			<section>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolor dolores id neque eaque dicta. Ad praesentium vel facilis eaque blanditiis illo dolore quidem ea amet! Ex provident laudantium repudiandae id, cum dolorem quisquam accusantium minima doloribus aliquid, earum voluptatum non ipsum a similique placeat quasi distinctio repellendus debitis quidem ullam dolore numquam.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi iusto tenetur sit, repudiandae earum ad eveniet, odit cupiditate nobis adipisci similique deserunt totam repellat dolores fuga, necessitatibus vero omnis.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis aut libero accusantium quo soluta cumque sequi eum, ea quibusdam!</p>
+			</section>
+		</article><!--
+		-->
+		<aside>
+			<h3>title</h3>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</aside>
+	</main>
+	<footer>
+		<h4>&copy;&nbsp;Copyright</h4>
+	</footer>
+</body>
+</html>
