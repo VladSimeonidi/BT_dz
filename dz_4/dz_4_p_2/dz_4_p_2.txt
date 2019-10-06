@@ -1,0 +1,13 @@
+Д/З №4  "CSS-селекторы" ч.2 Написать стили для CSS shopping list
+использовал селекторы, которые требовались:
+по элементу;
+по классу;
+по атрибуту;
+селектор соседей “+”;
+:hover;
+:active;
+:checked;
+:before и :after;
+:nth-child;
+hover и active усть у кнопки и ссылки"Let's go to the mall!";
+Шрифты использовал: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
