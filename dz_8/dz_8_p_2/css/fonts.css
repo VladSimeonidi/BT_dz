@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'playfairdisplay';
+	src:url("../fonts/playfairdisplay-regular-webfont.woff2") format("woff2"),
+		url("../fonts/playfairdisplay-regular-webfont.woff") format("woff");
+		font-weight: 400;
+}
+@font-face {
+	font-family: 'proxima nova';
+	src:url("../fonts/proxima_nova_regular-webfont.woff2") format("woff2"),
+		url("../fonts/proxima_nova_regular-webfont.woff") format("woff");
+		font-weight: 400;
+}
+@font-face {
+	font-family: 'Georgia';
+	src: url("../fonts/Georgia.woff") format("woff");
+		font-weight: 400;
+}
+@font-face {
+	font-family: 'Georgia Italic';
+	src: url("../fonts/Georgia-Italic.woff") format("woff");
+		font-weight: 400;
+		font-style: italic;
+}
+@font-face {
+	font-family: 'Futura Heavy';
+	src:url("../fonts/911fonts.com_futuraheavy__-_911fonts.com_fonts_pitw-webfont.woff2") format("woff2"),
+		url("../fonts/911fonts.com_futuraheavy__-_911fonts.com_fonts_pitw-webfont.woff") format("woff");
+		font-weight: 900;
+}

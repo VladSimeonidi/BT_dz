@@ -1,0 +1,76 @@
+html {
+	box-sizing: border-box;
+}
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+.header {
+	text-align: center;
+}
+.logo {
+	font-size: 12px;
+	color: #898f99;
+}
+.logo_header {
+	font-size: 48px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #0ec8cb;
+}
+.introduction {
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: -0.85px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	color: #999999;
+}
+.main {
+	max-width: 940px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+.block {
+	display: inline-block;
+	text-decoration: none;
+	width: 25%;
+	background-color: #f7f7f7;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #ececec;
+	min-height: 420px;
+	padding: 55px 30px;
+	padding-top: 105px;
+}
+.block:hover {
+	background-color: #0ec8cb;
+}
+.block:hover i {
+	color: white;
+}
+.block:hover .sex_header {
+	color: white;
+} 
+.block:hover .sec_text {
+	color: white;
+}
+.image {
+	font-size: 66px;
+	color: black;
+}
+.sex_header {
+	color: black;
+}
+.sec_text {
+	color: #777777;
+	font-size: 14px;
+	line-height: 22px;
+}

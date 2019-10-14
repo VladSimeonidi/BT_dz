@@ -1,0 +1,101 @@
+html {
+	box-sizing: border-box;
+}
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	margin: 0;
+	background-color: #227CAB;
+}
+.wrapper {
+	background-color: #2793CB;
+	margin: 1em;
+}
+.header {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 1px;
+}
+.header_logo {
+	margin: 10px 0;
+
+}
+.main {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+}
+.section_link {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	border: 3px solid white;
+}
+.section_link:hover {
+	opacity: 0.5;
+}
+.section_link:active {
+	color: black;
+}
+.city_name {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+.weather_text {
+	font-size: 18px;
+}
+.block_width_50 {
+	width: 50%;
+}
+.block_width_25 {
+	width: 25%;
+}
+.block_width_100 {
+	width: 100%;
+}
+.background_color_1 {
+	background-color: #26BCC8;
+}
+.background_color_2 {
+	background-color: #9A6E97;
+}
+.background_color_3 {
+	background-color: #C95342;
+}
+.background_color_4 {
+	background-color: #E97145;
+}
+.background_color_5 {
+	background-color: #FFCB5D;
+}
+.background_color_6 {
+	background-color: #93C397;
+}
+.background_color_7 {
+	background-color: #629394;
+}
+.background_color_8 {
+	background-color: #CF7294;
+}
+.background_color_9 {
+	background-color: #298D62;
+}
+.background_color_10 {
+	background-color: #656B99;
+}
+footer {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+.reminder {
+	color: white;
+	margin-bottom: 0;
+}
