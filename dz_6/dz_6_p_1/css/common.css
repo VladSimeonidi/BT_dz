@@ -46,9 +46,10 @@ body {
 	vertical-align: top;
 	text-align: center;
 	border: 1px solid #ececec;
-	min-height: 420px;
+	min-height: 450px;
 	padding: 55px 30px;
 	padding-top: 105px;
+	height: 100%;
 }
 .block:hover {
 	background-color: #0ec8cb;
